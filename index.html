@@ -2,14 +2,15 @@
 <html>
   <head>  
 		<title> hamza portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
     </head>
     <body>
       <nav>
-        <a href="index.html">home</a>
-        <a href="https://gomycode.com/">about</a>
-        <a href="https://www.freecodecamp.org/learn/responsive-web-design/">work</a>
-        <a href="https://dribbble.com/shots/10854907-Amike-Personal-Portfolio-WordPress-Theme">resume</a>
-        <a href="#">contact</a>
+        <a style="text-decoration:none" href="index.html">home</a>
+        <a style="text-decoration:none" href="https://gomycode.com/">about</a>
+        <a style="text-decoration:none" href="https://www.freecodecamp.org/learn/responsive-web-design/">work</a>
+        <a style="text-decoration:none" href="https://dribbble.com/shots/10854907-Amike-Personal-Portfolio-WordPress-Theme">resume</a>
+        <a style="text-decoration:none" href="#">contact</a>
         <form>
           Search <input type = "text" name = "search" />
       </form>
@@ -36,7 +37,7 @@
           </form>
       </section>
       <article>
-        <h1>LIVE Demo</h1>
+        <h1 id="livedemo">LIVE Demo</h1>
         <center>
         <iframe  width="560" height="315" src="https://www.youtube.com/embed/douTUGYQN1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </center>
@@ -52,8 +53,8 @@
           <li>artificielle</li>
         </ul>
         <sectionn>
-          <h2>sign up</h2>
-          <form >
+          <h2 >sign up</h2>
+          <form id="sign-up">
             <label style="font-size:150%;">Name:</label>
             <input type="text" name="first name" placeholder="Type your name here" size="50" />
             <br />

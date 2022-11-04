@@ -1,0 +1,18 @@
+form {
+font-family: Montserrat;
+}
+body {
+    font-size: 20px;
+    background-color: orange;
+}
+nav {
+    display: inline;
+}
+#sign-up {
+    background-color: gray;
+    margin-right: 800px;
+}
+#livedemo{
+    font-family: ;
+    color: brown;
+}
